@@ -1,5 +1,7 @@
 # Fiscal-fns
 
+[![Build Status](https://travis-ci.org/Ed-ITSolutions/fiscal-fns.svg?branch=master)](https://travis-ci.org/Ed-ITSolutions/fiscal-fns) [![Coverage Status](https://coveralls.io/repos/github/Ed-ITSolutions/fiscal-fns/badge.svg?branch=master)](https://coveralls.io/github/Ed-ITSolutions/fiscal-fns?branch=master)
+
 Fiscal-fns is a [date-fns](https://date-fns.org/) like package that provides functions for working with fiscal years.
 
 ## Install
