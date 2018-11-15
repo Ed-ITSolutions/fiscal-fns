@@ -1,0 +1,30 @@
+{
+  "name": "fiscal-fns",
+  "version": "0.0.1",
+  "description": "date-fns like functions for fiscal years",
+  "main": "lib/fiscal-fns.js",
+  "dependencies": {
+    "date-fns": "^1.29.0"
+  },
+  "devDependencies": {
+    "@types/date-fns": "^2.6.0",
+    "@types/jest": "^23.3.9",
+    "coveralls": "^3.0.2",
+    "jest": "^23.6.0",
+    "ts-jest": "^23.10.4",
+    "typescript": "^3.1.6"
+  },
+  "scripts": {
+    "test": "jest",
+    "compile": "tsc",
+    "prepublishOnly": "tsc",
+    "ci": "tsc & jest --coverage --coverageReporters=text-lcov | coveralls "
+  },
+  "keywords": [
+    "date-fns",
+    "fiscal",
+    "fiscal-year"
+  ],
+  "author": "Adam Laycock",
+  "license": "MIT"
+}

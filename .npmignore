@@ -1,0 +1,3 @@
+src/
+coverage/
+jest.config.js
