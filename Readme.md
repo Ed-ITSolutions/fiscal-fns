@@ -30,6 +30,13 @@ All functions take an options object which looks like this:
 |date| - |The date to test, can be either a string or a `Date`. It is passed to `date-fns` internally so anything `date-fns` can parse can be used here.|
 |options|`{startDay: 1, startMonth: 3}`| See Options above. |
 
+### fiscalYear
+
+|Parameter|Default| Description |
+|:---|:---|:---|
+|year| - |The year to return the start/end of. `2018` will return 1st April 2018 for the start and 31st March 2019 for the end.|
+|options|`{startDay: 1, startMonth: 3}`| See Options above. |
+
 ### inFiscalYear
 
 |Parameter|Default| Description |
