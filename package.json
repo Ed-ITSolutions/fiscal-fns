@@ -1,6 +1,6 @@
 {
   "name": "fiscal-fns",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "date-fns like functions for fiscal years",
   "main": "lib/fiscal-fns.js",
   "dependencies": {
